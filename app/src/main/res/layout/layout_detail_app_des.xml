@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/grid_item_bg_normal"
+    android:padding="8dp"
+    android:orientation="vertical" >
+    
+    <TextView style="@style/TitleText"
+        android:text="简介"/>
+    
+    <TextView style="@style/SubTitleText"
+        android:singleLine="false"
+        android:paddingTop="6dp"
+        android:paddingBottom="6dp"
+        android:id="@+id/tv_des"
+        android:text="敖德萨大萨达萨达撒啊实打实的三大,敖德萨大萨达萨达撒啊实打实的三大,敖德萨大萨达萨达撒啊实打实的三大,敖德萨大萨达萨达撒啊实打实的三大,"/>
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:orientation="horizontal">
+        
+        <TextView style="@style/TitleText"
+            android:layout_weight="1"
+            android:id="@+id/tv_author"
+            android:text="作者"/>
+        
+        <ImageView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/iv_des_arrow"
+            android:src="@drawable/arrow_down"/>
+        
+    </LinearLayout>
+</LinearLayout>

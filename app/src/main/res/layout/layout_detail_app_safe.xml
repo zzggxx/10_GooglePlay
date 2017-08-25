@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/grid_item_bg_normal"
+    android:orientation="vertical"
+    android:padding="8dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_safe_image1"
+            android:layout_width="55dp"
+            android:layout_height="28dp" />
+
+        <ImageView
+            android:id="@+id/iv_safe_image2"
+            android:layout_width="55dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:layout_toRightOf="@id/iv_safe_image1" />
+
+        <ImageView
+            android:id="@+id/iv_safe_image3"
+            android:layout_width="55dp"
+            android:layout_height="28dp"
+            android:layout_toRightOf="@id/iv_safe_image2" />
+
+        <ImageView
+            android:id="@+id/iv_safe_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/arrow_down" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/ll_safe_container"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_safe_icon1"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_default" />
+
+            <TextView
+                android:id="@+id/tv_safe_des1"
+                style="@style/SubTitleText"
+                android:text="啤酒饮料纯净水" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_safe2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_safe_icon2"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_default" />
+
+            <TextView
+                android:id="@+id/tv_safe_des2"
+                style="@style/SubTitleText"
+                android:text="花生瓜子八宝粥" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_safe3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/iv_safe_icon3"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_default" />
+
+            <TextView
+                android:id="@+id/tv_safe_des3"
+                style="@style/SubTitleText"
+                android:text="腿收一下啊" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
